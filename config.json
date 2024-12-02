@@ -1,5 +1,5 @@
 {
-    "title": "成成0v0 の 个人网站",
+    "title": "LoliPix's website",
     "theme": {
         "theme": "defdark",
         "displayName": "Default",
@@ -19,13 +19,13 @@
         }
     },
     "masterInfo": {
-        "name": "成成0v0",
+        "name": "LoliPix",
         "avatar": "./assets/images/avatar.png",
         "website": "https://hic.top",
         "socialLink": {
             "link": {
-                "bilibili": "https://space.bilibili.com/675279872",
-                "github": "https://github.com/ChengCheng0v0",
+                "bilibili": "https://space.bilibili.com/",
+                "github": "https://github.com/LoliPix",
                 "email": "javascript:showEmail()"
             },
             "icon": {
