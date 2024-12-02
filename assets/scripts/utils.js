@@ -7,7 +7,7 @@ function getWebsiteConfig() {
         init() {
             try {
                 const xhr = new XMLHttpRequest();
-                xhr.open("GET", "/ACG-Home/"+"../../config.json", false); // 使用同步请求
+                xhr.open("GET", "https://lolipix.github.io/ACG-Home/config.json", false); // 使用同步请求
                 xhr.send();
 
                 if (xhr.status >= 200 && xhr.status < 300) {
