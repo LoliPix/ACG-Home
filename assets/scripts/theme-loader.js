@@ -21,7 +21,7 @@ class ThemeManager {
         // 使用 XML 获取主题的元数据
         try {
             const xhr = new XMLHttpRequest();
-            xhr.open("GET", themePath + "/theme.json", false); // 使用同步请求
+            xhr.open("GET", "https://lolipix.github.io/ACG-Home/assets/themes/defdark/theme.json", false); // 使用同步请求
             xhr.send();
 
             if (xhr.status >= 200 && xhr.status < 300) {
