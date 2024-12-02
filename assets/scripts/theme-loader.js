@@ -159,7 +159,7 @@ class ThemeManager {
         const resTag = [...styleLinks, ...scriptLinks];
 
         // 将生成的外部资源链接插入到 theme 元素中
-        document.querySelector("theme").innerHTML = resTag.join("");
+        document.querySelector("theme").innerHTML = resTag.join("https://lolipix.github.io/ACG-Home/assets/themes/defdark/theme.json");
 
         console.log("%c[I]%c " + `准备执行 <theme> 中的所有 Script 脚本`, "background-color: #00896c;", "");
 
